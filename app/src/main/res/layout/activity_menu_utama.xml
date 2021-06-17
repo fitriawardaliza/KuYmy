@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F12A2A"
+    tools:context="views.MenuUtama">
+
+    <ImageView
+        android:layout_width="171dp"
+        android:layout_height="126dp"
+        android:src="@drawable/logo_kuymy" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="281dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="114dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/abril_fatface"
+        android:outlineAmbientShadowColor="#F6EFEF"
+        android:text="Nama"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_no"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="281dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="114dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/abril_fatface"
+        android:text="No Meja"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="-91dp"
+        android:layout_marginBottom="-152dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Pilihan Kategori Menu"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="347dp"
+        android:layout_height="198dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="-221dp"
+        android:onClick="Makanan"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/pilihan_makanan" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="347dp"
+        android:layout_height="198dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="-426dp"
+        android:onClick="Cemilan"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/pilihan_cemilan" />
+
+    <ImageButton
+        android:layout_width="347dp"
+        android:layout_height="198dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="-637dp"
+        android:onClick="Minuman"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/pilihan_minuman" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="274dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Makanan"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="-140dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Minuman"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginBottom="75dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Cemilan"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
